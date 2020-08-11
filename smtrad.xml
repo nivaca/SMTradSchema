@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>SMTrans Customization File</title>
+        <author xml:id="NicolasVaughan">Nicolas Vaughan</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>An SCTA and LombardPress Collaboration Project</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born Digital</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <change who="#NicolasVaughan" when="2020-08-11" n="0.0.0-dev"></change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="lombardpress-schema" start="TEI"
+          source="http://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">
+        
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
